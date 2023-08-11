@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	display: grid;
+
+	
+
+}
+
+table {
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	height: 80vh;
+	width: 80vw;
+	
+}
+
+tr,th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+tbody>tr>td{
+	border: 1px solid black;
+	background: #ffffff;
+}
+
+
+thead>tr>th{
+	background:red;
+}
+
+.nom{
+	background: rgb(103, 128, 159);
+}
+
+caption{
+	border: 2px solid black;
+	height: 3Vh;
+	height: 10%;
+
+}
+main{
+	display: grid;
+	place-self: center;
+		padding-top: 4%;
+}
+
+tbodytd{
+	background: green;
+}
